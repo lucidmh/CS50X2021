@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: i decided to check this by sorted ones to check omega and i realized that it takes more than sort 2 and less than sort 3 and i realized that  its Ω(n)
+
+sort2 uses: Merge sort
+
+How do you know?: i've checked sorted10000 and i realized that this is the fastest one and as you know merge sort omega is Ω(n log n)
+
+sort3 uses: Selection sort
+
+How do you know?: again, i checke this one by the sorted ones like sort 1 & 2 and i realized that this ones omega is Ω(n^2) and this have the biggest real time.
