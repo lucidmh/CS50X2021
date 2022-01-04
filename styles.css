@@ -1,126 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    transition: 0.5s;
-    font: Bold;
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
 }
 
-body{
-    height: 1000px;
-    background-image:url(https://b2n.ir/s06871);
-    background-attachment: fixed;
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #191919;
+}
+nav .navbar-brand .red
+{
+    color: #191919;
+}
+nav .navbar-brand .yellow
+{
+    color: #191919;
+}
+nav .navbar-brand .green
+{
+    color: #191919;
 }
 
-
-a:hover{
-    color: #5A6F8E;
-    text-decoration: none;
-}
-
-a:active{
-    color: #7D868F;
-}
-
-.header{
-    background-image: url(https://b2n.ir/s06871);
-    width: 100%;
-    height: 15%;
-    position: relative;
-    text-align: center;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-}
-
-.header ul{
-    height: 90%;
-}
-
-.header a{
+main .form-control
+{
+    /* Center form controls */
     display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
 }
 
-.navbar{
-    font-size: 20px;
-    text-decoration: none;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-top: 3.5%;
-    right: 10px;
-}
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
 
-.logo{
-    display: inline-block;
-    position: fixed;
-    left:1%;
-    width: 80px;
-    height: 80px;
-    z-index: 1;
-    top: 5%;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: solid rgba(0,0,0, 0.1) 0.5px;
-}
-.section{
-    display: inline-block;
-    position: relative;
-    background-image: url(https://b2n.ir/y52423);
-    height: 70%;
-    width: 100%;
-    background-attachment: fixed;
-}
-
-.footer{
-    background-image:url(https://b2n.ir/s06871);
-    position: relative;
-    height: 15%;
-    width: 100%;
-    background-attachment: fixed;
-}
-.section div{
-    text-align:center;
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.section{
-    font-size: 16px;
-    color: #6c7571;
-}
-
-span{
-    color: #37598c;
-    font-weight: bolder;
-    font-family: 'Comic Sans MS';
-}
-
-
-#button{
-    padding: 10px;
-    border-radius: 5%;
-    box-shadow:rgba(0,0,0,0.35)0px 5px 15px;
-    background-color: #5A6F8E;
-    font-weight:bold;
-    border: solid 5px #000;
-}
-
-.footer div{
-    font-size: 20px;
-    text-decoration: none;
+    /* Center contents */
     text-align: center;
 }
 
-.footer a{
-    margin-right: 30px;
-}
-
-.footer i{
-    margin-left: 5px;
-}
-
-.footer p{
-    text-align: center;
-    color: white;
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
 }
